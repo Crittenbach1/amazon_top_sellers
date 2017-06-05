@@ -1,5 +1,2 @@
-require "amazon_top_sellers/version"
-
-module AmazonTopSellers
-  # Your code goes here...
-end
+require_relative "./amazon_top_sellers/version"
+require_relative "./amazon_top_sellers/cli.rb"
