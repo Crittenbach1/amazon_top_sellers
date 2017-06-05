@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require './lib/amazon_top_sellers'
+
+TopSellers::CLI.new.call
